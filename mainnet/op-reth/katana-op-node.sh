@@ -1,4 +1,4 @@
-op_node_image="us-docker.pkg.dev/oplabs-tools-artifacts/images/op-node:v1.16.13"
+op_node_image="us-docker.pkg.dev/oplabs-tools-artifacts/images/op-node:v1.16.13-rc.1"
 
 docker run -it --restart unless-stopped -d \
        --network rpcs \
