@@ -1,4 +1,4 @@
-op_node_image="us-docker.pkg.dev/oplabs-tools-artifacts/images/op-node:v1.16.13-rc.1"
+op_node_image="us-docker.pkg.dev/oplabs-tools-artifacts/images/op-node:v1.19.3"
 
 docker run -it --restart unless-stopped -d \
        --network rpcs \
@@ -27,5 +27,6 @@ docker run -it --restart unless-stopped -d \
        --l1.rpc-max-batch-size=50 \
        --override.isthmus=1749807000 \
        --override.jovian=1770136201 \
-       --p2p.static=/ip4/34.169.243.167/tcp/9222/p2p/16Uiu2HAmR2dH14jqFG27SNHU1B8N4GSHRpzprehXyFvMYgvAm32o \
-       --p2p.bootnodes=enode://b7d7314ac449de7e653b8ae256c99211e6f174e848f6ebe0a0a62ca2e3f4f080a437b7c7f78b29845bde49485b4e63ffd5c1713cbf0b24ecee3ba804b2f8cf87@34.169.243.167:9222?discport=30301,enode://d25ce99435982b04d60c4b41ba256b84b888626db7bee45a9419382300fbe907359ae5ef250346785bff8d3b9d07cd3e017a27e2ee3cfda3bcbb0ba762ac9674@bootnode.conduit.xyz:0?discport=30301,enode://2d4e7e9d48f4dd4efe9342706dd1b0024681bd4c3300d021f86fc75eab7865d4e0cbec6fbc883f011cfd6a57423e7e2f6e104baad2b744c3cafaec6bc7dc92c1@34.65.43.171:0?discport=30305,enode://9d7a3efefe442351217e73b3a593bcb8efffb55b4807699972145324eab5e6b382152f8d24f6301baebbfb5ecd4127bd3faab2842c04cd432bdf50ba092f6645@34.65.109.126:0?discport=30305
+       --syncmode=execution-layer \
+       --p2p.static=/ip4/136.118.228.4/tcp/9222/p2p/16Uiu2HAmJzgCLweBUU2nKnDyQdihDMPErTyanz9KGtMzkbQLhjRv \
+       --p2p.no-discovery

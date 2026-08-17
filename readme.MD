@@ -53,8 +53,8 @@ Each network has two sub-folders:
 
 | Component  | Image                                                           | Version   |
 |------------|-----------------------------------------------------------------|-----------|
-| op-reth    | `ghcr.io/conduitxyz/conduit-op-reth` (Conduit fork)            | `v1.0.3`  |
-| op-node    | `us-docker.pkg.dev/oplabs-tools-artifacts/images/op-node`      | `v1.16.13` |
+| op-reth    | `ghcr.io/conduitxyz/conduit-op-reth` (Conduit fork)            | `v2.1.2`  |
+| op-node    | `us-docker.pkg.dev/oplabs-tools-artifacts/images/op-node`      | `v1.19.3` |
 
 ---
 
