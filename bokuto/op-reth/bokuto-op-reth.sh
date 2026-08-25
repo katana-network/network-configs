@@ -1,4 +1,4 @@
-op_reth_image="ghcr.io/conduitxyz/conduit-op-reth:v2.1.2"
+op_reth_image="ghcr.io/conduitxyz/conduit-op-reth:v2.2.0"
 
 docker run -it --restart unless-stopped -d \
        --network rpcs \

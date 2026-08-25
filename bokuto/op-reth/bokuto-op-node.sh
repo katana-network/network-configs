@@ -27,6 +27,7 @@ docker run -it --restart unless-stopped -d \
        --l1.rpc-max-batch-size=50 \
        --override.isthmus=1749807000 \
        --override.jovian=1770136201 \
+       --override.karst=1787760001 \
        --syncmode=execution-layer \
        --p2p.static=/ip4/136.118.228.4/tcp/9222/p2p/16Uiu2HAmJzgCLweBUU2nKnDyQdihDMPErTyanz9KGtMzkbQLhjRv \
        --p2p.no-discovery

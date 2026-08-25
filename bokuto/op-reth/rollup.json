@@ -30,6 +30,7 @@
   "fjord_time": 0,
   "granite_time": 0,
   "holocene_time": 0,
+  "karst_time": 1787760001,
   "batch_inbox_address": "0x00c7c52b7b4cd92a08298baa6d0ff909bbddcb1d",
   "deposit_contract_address": "0x456ea98d6dc12292be5e344637cb9de7cab396ce",
   "l1_system_config_address": "0x1344e13fcf519d14bb314b9770d65a5b51036a9d",
