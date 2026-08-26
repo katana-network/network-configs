@@ -53,10 +53,10 @@ Each network has two sub-folders:
 
 | Component  | Image                                                           | Mainnet   | Bokuto (Testnet) |
 |------------|-----------------------------------------------------------------|-----------|------------------|
-| op-reth    | `ghcr.io/conduitxyz/conduit-op-reth` (Conduit fork)            | `v2.1.2`  | `v2.2.0`         |
+| op-reth    | `ghcr.io/conduitxyz/conduit-op-reth` (Conduit fork)            | `v2.2.0`  | `v2.2.0`         |
 | op-node    | `us-docker.pkg.dev/oplabs-tools-artifacts/images/op-node`      | `v1.19.3` | `v1.19.3`        |
 
-Bokuto requires **op-node** `--override.karst=1787760001` and **conduit-op-reth** `v2.2.0` before Karst activates at Wed Aug 26 2026 16:00:01 UTC.
+Both networks require **conduit-op-reth** `v2.2.0` before Karst. **op-node** needs `--override.karst=1787760001` on Bokuto (Wed Aug 26 2026 16:00:01 UTC) and `--override.karst=1790179201` on Mainnet (Wed Sep 23 2026 16:00:01 UTC).
 
 ---
 
@@ -92,7 +92,7 @@ Before running, verify the genesis file integrity using MD5.
 ```bash
 # Mainnet (op-reth)
 md5 -q mainnet/op-reth/genesis.json
-# Expected: b743dc3dd611f6c90bbd192c3d78490c
+# Expected: 2d3d2a13a21defa0efb2e2c112c6c7d0
 
 # Bokuto (op-reth)
 md5 -q bokuto/op-reth/genesis.json
