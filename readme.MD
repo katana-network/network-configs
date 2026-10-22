@@ -35,10 +35,10 @@ Each network has an **`op-reth/`** folder with the supported setup using op-reth
 
 | Component  | Image                                                           | Mainnet   | Bokuto (Testnet) |
 |------------|-----------------------------------------------------------------|-----------|------------------|
-| op-reth    | `ghcr.io/conduitxyz/conduit-op-reth` (Conduit fork)            | `v2.2.0`  | `v2.2.0`         |
-| op-node    | `us-docker.pkg.dev/oplabs-tools-artifacts/images/op-node`      | `v1.19.3` | `v1.19.3`        |
+| op-reth    | `ghcr.io/conduitxyz/conduit-op-reth` (Conduit fork)            | `v2.4.0`  | `v2.4.0`         |
+| op-node    | `us-docker.pkg.dev/oplabs-tools-artifacts/images/op-node`      | `v1.19.11` | `v1.19.11`      |
 
-Both networks require **conduit-op-reth** `v2.2.0` before Karst. **op-node** needs `--override.karst=1787760001` on Bokuto (Wed Aug 26 2026 16:00:01 UTC) and `--override.karst=1790179201` on Mainnet (Wed Sep 23 2026 16:00:01 UTC).
+**op-node** needs `--override.karst=1787760001` on Bokuto (Wed Aug 26 2026 16:00:01 UTC) and `--override.karst=1790179201` on Mainnet (Wed Sep 23 2026 16:00:01 UTC).
 
 ---
 
